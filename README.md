@@ -6,4 +6,4 @@ MAML enables models to learn versatile strategies applicable across multiple tas
 Our objective revolves around numerous tasks grouped as sets of batches, denoted as p(T), which our model must adeptly handle. We aim for the model's continual improvement in tackling new tasks without fixating too much on a singular approach. Thus, our focus lies in discovering optimal model settings that significantly impact the model's performance when faced with a new task from p(T).
 
 ## 🔗 Visit my Medium Blog
-[![Medium Article](https://ashshaks.medium.com/model-agnostic-meta-learning-algorithm-case-study-8d3915e37add)](https://medium.com/)
+[Medium Article](https://ashshaks.medium.com/model-agnostic-meta-learning-algorithm-case-study-8d3915e37add)
