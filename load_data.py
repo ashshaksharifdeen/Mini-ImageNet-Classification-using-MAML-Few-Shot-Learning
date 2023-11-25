@@ -163,9 +163,6 @@ class TaskGenerator:
             spt_y = list()
             qry_x = list()
             qry_y = list()
-            # 此处是从每类的k_shot+k_query张图片中抽取k_shot张作为support set， 其余作为query set
-            # 并且按照图片路径读取图片，对label进行one hot编码
-            # 将support set和query set整体转化为张量
             for i, class_elem in enumerate(ds):
                 spt_elem = random.sample(class_elem, self.spt_num)
                 qry_elem = [elem for elem in class_elem if elem not in spt_elem]
